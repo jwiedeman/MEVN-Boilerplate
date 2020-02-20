@@ -37,7 +37,7 @@ require('./auth')(routes);
 require('./file')(routes);
 require('./iam')(routes);
 require('./settings')(routes);
-require('./removeme')(routes);
+require('./recipe')(routes);
 
 // Add the routes to the /api endpoint
 app.use('/api', routes);

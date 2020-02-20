@@ -27,33 +27,33 @@ const en = {
   },
 
   entities: {
-    removeme: {
-      name: 'removeme',
-      label: 'Removemes',
-      menu: 'Removemes',
-      exporterFileName: 'removeme_export',
+    recipe: {
+      name: 'recipe',
+      label: 'recipes',
+      menu: 'recipes',
+      exporterFileName: 'recipe_export',
       list: {
-        menu: 'Removemes',
-        title: 'Removemes',
+        menu: 'recipes',
+        title: 'recipes',
       },
       create: {
-        success: 'Removeme saved successfully',
+        success: 'recipe saved successfully',
       },
       update: {
-        success: 'Removeme saved successfully',
+        success: 'recipe saved successfully',
       },
       destroy: {
-        success: 'Removeme deleted successfully',
+        success: 'recipe deleted successfully',
       },
       destroyAll: {
-        success: 'Removeme(s) deleted successfully',
+        success: 'recipe(s) deleted successfully',
       },
       edit: {
-        title: 'Edit Removeme',
+        title: 'Edit recipe',
       },
       fields: {
         id: 'Id',
-        'removemefield': 'Removemefield',
+        'recipefield': 'recipefield',
         createdAt: 'Created at',
         updatedAt: 'Updated at',
         createdAtRange: 'Created at',
@@ -62,14 +62,14 @@ const en = {
 
       },
       new: {
-        title: 'New Removeme',
+        title: 'New recipe',
       },
       view: {
-        title: 'View Removeme',
+        title: 'View recipe',
       },
       importer: {
-        title: 'Import Removemes',
-        fileName: 'removeme_import_template',
+        title: 'Import recipes',
+        fileName: 'recipe_import_template',
         hint:
           'Files/Images columns must be the URLs of the files separated by space.',
       },
@@ -147,13 +147,13 @@ const en = {
       label: 'Entity Viewer',
       description: 'View access to all entities',
     },
-    removemeEditor: {
-      label: 'Removeme Editor',
-      description: 'Edit access to Removemes',
+    recipeEditor: {
+      label: 'recipe Editor',
+      description: 'Edit access to recipes',
     },
-    removemeViewer: {
-      label: 'Removeme Viewer',
-      description: 'View access to Removemes',
+    recipeViewer: {
+      label: 'recipe Viewer',
+      description: 'View access to recipes',
     },
   },
 

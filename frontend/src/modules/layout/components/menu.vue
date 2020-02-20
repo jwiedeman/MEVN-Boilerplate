@@ -60,14 +60,14 @@
       </el-menu-item>
 
       <el-menu-item
-        :class="classFor('/removeme')"
-        :route="{ path: '/removeme' }"
-        index="/removeme"
-        v-if="hasPermissionToRemoveme"
+        :class="classFor('/recipe')"
+        :route="{ path: '/recipe' }"
+        index="/recipe"
+        v-if="hasPermissionTorecipe"
       >
         <i class="el-icon-fa-chevron-right"></i>
         <span slot="title">
-          <app-i18n code="entities.removeme.menu"></app-i18n>
+          <app-i18n code="entities.recipe.menu"></app-i18n>
         </span>
       </el-menu-item>
     </el-menu>
@@ -79,7 +79,7 @@ import { mapGetters, mapActions } from 'vuex';
 import { SettingsPermissions } from '@/modules/settings/settings-permissions';
 import { AuditLogPermissions } from '@/modules/audit-log/audit-log-permissions';
 import { IamPermissions } from '@/modules/iam/iam-permissions';
-import { RemovemePermissions } from '@/modules/removeme/removeme-permissions';
+import { recipePermissions } from '@/modules/recipe/recipe-permissions';
 
 export default {
   name: 'app-menu',
@@ -103,8 +103,8 @@ export default {
       return new IamPermissions(this.currentUser).read;
     },
 
-    hasPermissionToRemoveme() {
-      return new RemovemePermissions(this.currentUser).read;
+    hasPermissionTorecipe() {
+      return new recipePermissions(this.currentUser).read;
     },
 
     asideWidth() {

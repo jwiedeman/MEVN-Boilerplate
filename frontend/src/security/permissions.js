@@ -56,65 +56,65 @@ class Permissions {
         id: 'settingsEdit',
         allowedRoles: [roles.owner],
       },
-      removemeImport: {
-        id: 'removemeImport',
+      recipeImport: {
+        id: 'recipeImport',
         allowedRoles: [
           roles.owner,
           roles.editor,
           roles.entityEditor,
-          roles.removemeEditor,
+          roles.recipeEditor,
         ],
       },
-      removemeCreate: {
-        id: 'removemeCreate',
+      recipeCreate: {
+        id: 'recipeCreate',
         allowedRoles: [
           roles.owner,
           roles.editor,
           roles.entityEditor,
-          roles.removemeEditor,
+          roles.recipeEditor,
         ],
-        allowedStorageFolders: ['removeme'],
+        allowedStorageFolders: ['recipe'],
       },
-      removemeEdit: {
-        id: 'removemeEdit',
+      recipeEdit: {
+        id: 'recipeEdit',
         allowedRoles: [
           roles.owner,
           roles.editor,
           roles.entityEditor,
-          roles.removemeEditor,
+          roles.recipeEditor,
         ],
-        allowedStorageFolders: ['removeme'],
+        allowedStorageFolders: ['recipe'],
       },
-      removemeDestroy: {
-        id: 'removemeDestroy',
+      recipeDestroy: {
+        id: 'recipeDestroy',
         allowedRoles: [
           roles.owner,
           roles.editor,
           roles.entityEditor,
-          roles.removemeEditor,
+          roles.recipeEditor,
         ],
-        allowedStorageFolders: ['removeme'],
+        allowedStorageFolders: ['recipe'],
       },
-      removemeRead: {
-        id: 'removemeRead',
+      recipeRead: {
+        id: 'recipeRead',
         allowedRoles: [
           roles.owner,
           roles.editor,
           roles.viewer,
           roles.entityEditor,
-          roles.removemeEditor,
-          roles.removemeViewer,
+          roles.recipeEditor,
+          roles.recipeViewer,
         ],
       },
-      removemeAutocomplete: {
-        id: 'removemeAutocomplete',
+      recipeAutocomplete: {
+        id: 'recipeAutocomplete',
         allowedRoles: [
           roles.owner,
           roles.editor,
           roles.viewer,
           roles.entityEditor,
-          roles.removemeEditor,
-          roles.removemeViewer,
+          roles.recipeEditor,
+          roles.recipeViewer,
 
         ],
       },

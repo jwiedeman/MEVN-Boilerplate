@@ -11,8 +11,8 @@ class Roles {
       iamSecurityReviewer: 'iamSecurityReviewer',
       entityEditor: 'entityEditor',
       entityViewer: 'entityViewer',
-      removemeEditor: 'removemeEditor',
-      removemeViewer: 'removemeViewer',
+      recipeEditor: 'recipeEditor',
+      recipeViewer: 'recipeViewer',
     };
   }
 

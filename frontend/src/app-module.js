@@ -9,7 +9,7 @@ import home from '@/modules/home/home-module';
 import iam from '@/modules/iam/iam-module';
 import settings from '@/modules/settings/settings-module';
 import auditLog from '@/modules/audit-log/audit-log-module';
-import removeme from '@/modules/removeme/removeme-module';
+import recipe from '@/modules/recipe/recipe-module';
 
 const modules = {
   shared,
@@ -19,7 +19,7 @@ const modules = {
   iam,
   auditLog,
   layout,
-  removeme,
+  recipe,
 };
 
 // start - boilerplate code
