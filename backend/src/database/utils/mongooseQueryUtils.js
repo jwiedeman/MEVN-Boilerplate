@@ -1,4 +1,4 @@
-const database = require('../database');
+const database = require('mongoose');
 
 /**
  * Utilities to use on Mongoose queries.
