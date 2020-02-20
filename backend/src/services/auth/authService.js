@@ -79,11 +79,12 @@ class AuthService {
       firstName: email.split('@')[0],
       password: hashedPassword,
       email: email,
+      roles:Roles.values.viewer
       /**
        * If the user is the first user, it's auto set as the owner.
        * New users have no permissions. You can override this behaviour here.
        */
-      roles: isFirstUser ? [Roles.values.owner] : [],
+      //roles: isFirstUser ? [Roles.values.owner] : [],
     });
 
     if (EmailSender.isConfigured) {

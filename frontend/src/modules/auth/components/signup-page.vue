@@ -99,6 +99,7 @@ export default {
       await this.doRegisterEmailAndPassword({
           email: this.model.email,
           password: this.model.password,
+          role:'viewer'
         },
       );
     },
