@@ -85,6 +85,7 @@
 
 .auth .wrapper.signin {
   background-image: url(/images/signin.jpg);
+  background-position: center;
 }
 
 .auth .wrapper.signup {

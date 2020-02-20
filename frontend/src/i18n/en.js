@@ -191,6 +191,8 @@ const en = {
       titleModal: 'New User',
       emailsHint:
         'Separate multiple email addresses using the comma character.',
+        passwordHint:
+        'enter a password for the user.',
     },
     view: {
       title: 'View User',
